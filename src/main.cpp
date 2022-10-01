@@ -1,7 +1,7 @@
-#include "lib/Example.h"
+#include "lib/Resolver.h"
 
 int main() {
-  Example example{3};
-  example.exec();
+  Resolver resolver{};
+  resolver.resolve("hellomylesBARmemyfooorelseFOObar");
   return 0;
 }
