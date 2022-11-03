@@ -2,6 +2,7 @@
 
 int main() {
   Resolver resolver{};
-  resolver.resolve("hellomylesBARmemyfooorelseFOObar");
+  resolver.resolve("mylesBARmemyfooorelseFOObar");
   return 0;
 }
+
